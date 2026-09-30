@@ -1,0 +1,41 @@
+# ---- LaTeX build artifacts ----
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.synctex(busy)
+*.run.xml
+*-blx.bib
+*.bcf
+*.nav
+*.snm
+*.vrb
+*.xdv
+*.dvi
+*.ps
+*.gz
+
+# ---- Editor / OS ----
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# ---- Python tooling ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# ---- Local, non-tracked outputs ----
+tools/
+paper-draft.md
